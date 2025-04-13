@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+* {
+  border: red 1px;
+}
+
+body {
+  background-image: url("assets/BG.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
