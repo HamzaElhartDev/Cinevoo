@@ -1,17 +1,57 @@
-<<<<<<< HEAD
-# React + Vite
+# Cinevoo 🎥
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Cinevoo** is a modern and responsive movie web application built with **React.js**. Discover trending films, browse through categories, and access detailed movie information seamlessly across devices. 
 
-Currently, two official plugins are available:
+## Features
+- Browse movies by genre, rating, and release date.
+- Watch trailers and view detailed movie information.
+- Responsive layout for smooth experience across mobile, tablet, and desktop devices.
+- Search functionality to find your favorite films quickly.
+- Built with React.js, optimized for fast performance.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+- **React.js** - A JavaScript library for building user interfaces.
+- **Vite** - A fast build tool for modern web projects.
+- **CSS/SCSS** - For styling and ensuring a responsive, mobile-first design.
+- **Axios** - For making API requests and fetching movie data.
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Cinevoo
-🎥 Cinevoo — A modern and responsive movie web application built with React.js. Discover trending films, browse by category, and access detailed movie information through an intuitive, user-friendly interface.
->>>>>>> ec8be89bb0e898d5c79739b7ce5360f08d5e223e
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/HamzaElhartDev/Cinevoo.git
+    ```
+
+2. Navigate to the project folder:
+    ```bash
+    cd Cinevoo
+    ```
+
+3. Install dependencies:
+    ```bash
+    npm install
+    ```
+
+4. Start the development server:
+    ```bash
+    npm run dev
+    ```
+
+Your app will be running on `http://localhost:3000` (or another port if specified).
+
+## Usage
+
+Once the app is running, you can explore:
+- **Trending Movies**: View a curated list of the latest and most popular films.
+- **Search**: Find movies by title, genre, or director.
+- **Movie Details**: Click on any movie to view detailed information, including descriptions, ratings, and trailers.
+
+## Contributing
+Feel free to fork the project and submit pull requests. If you find a bug or want to suggest a new feature, please open an issue.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+Enjoy exploring the movies with **Cinevoo**! 🍿✨
